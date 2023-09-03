@@ -1,17 +1,17 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Navi Mariani
 // Data atual  : 3/9/2023
 Var
 
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome,sexo,estadoCivil: caracter
    tempoDeCasada: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 // Informe os dados referentes ao que o programa pede
    escreval("Digite seu nome")
 
@@ -33,27 +33,27 @@ Inicio
 // Estruturas condicionais referentes aos dados referentes a nome,sexo,estado civil e tempo de casamento
    se sexo = "masculino" entao
 
-      escreval("Seu nome é: " ,nome, ", você é do sexo: " ,sexo, ",seu estado civil é : " ,estadoCivil)
+      escreval("Seu nome Ã©: " ,nome, ", vocÃª Ã© do sexo: " ,sexo, ",seu estado civil Ã© : " ,estadoCivil)
 
    fimse
 
    se sexo = "feminino" entao
 
-      escreval("Informe a quanto tempo você é casada:")
+      escreval("Informe a quanto tempo vocÃª Ã© casada:")
 
       leia(tempoDeCasada)
 
       se (tempoDeCasada) > 1 entao
 
-         escreval("Seu nome é: " ,nome, ", você é do sexo: " ,sexo, ",seu estado civil é : " ,estadoCivil, " e você esta casada a " ,tempoDeCasada, " anos.")
+         escreval("Seu nome Ã©: " ,nome, ", vocÃª Ã© do sexo: " ,sexo, ",seu estado civil Ã© : " ,estadoCivil, " e vocÃª esta casada a " ,tempoDeCasada, " anos.")
 
       senao
 
-         escreval("Seu nome é: " ,nome, ", você é do sexo: " ,sexo,", seu estado civil é : " ,estadoCivil, " e você está casada a " ,tempoDeCasada, " ano.")
+         escreval("Seu nome Ã©: " ,nome, ", vocÃª Ã© do sexo: " ,sexo,", seu estado civil Ã© : " ,estadoCivil, " e vocÃª estÃ¡ casada a " ,tempoDeCasada, " ano.")
 
       senao
 
-         escreval("Seu nome é: ",nome, "você é do sexo: " ,sexo, " e seu estado civil é : " ,estadoCivil)
+         escreval("Seu nome Ã©: ",nome, "vocÃª Ã© do sexo: " ,sexo, " e seu estado civil Ã© : " ,estadoCivil)
 
       fimse
 
