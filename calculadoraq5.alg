@@ -1,32 +1,32 @@
 Algoritmo "semnome"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Ravi Mariani
 // Data atual  : 3/9/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 resultado,numero : real
 operacao,continuar : caractere
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-//Informe o primeiro número da operação:
-escreval ("Digite o primeiro número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+//Informe o primeiro nÃºmero da operaÃ§Ã£o:
+escreval ("Digite o primeiro nÃºmero: ")
 leia (resultado)
 
 limpatela
 
-//insira o segundo número da operação
+//insira o segundo nÃºmero da operaÃ§Ã£o
 
-escreval ("Digite o número: ")
+escreval ("Digite o nÃºmero: ")
 leia (numero)
 
 limpatela
 
-//escolha que tipo de operação você desja realizar
+//escolha que tipo de operaÃ§Ã£o vocÃª desja realizar
 
-escreval ("Escolha a operação [+ - * /]")
+escreval ("Escolha a operaÃ§Ã£o [+ - * /]")
 leia (operacao)
 
 limpatela
@@ -51,7 +51,7 @@ fimescolha
 
 escreval(" ")
 
-escreval ("O seu número é: ")
+escreval ("O seu nÃºmero Ã©: ")
 escreval (resultado)
 
 Fimalgoritmo
