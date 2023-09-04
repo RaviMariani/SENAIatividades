@@ -1,20 +1,20 @@
 Algoritmo "semnome"
 //
 //
-// DescriÁ„o   : aÁa um algoritmo que leia dois valores inteiros
-//A e B se os valores forem iguais dever· se somar os dois, caso
-//contr·rio multiplique A por B. Ao final de qualquer um dos
-//c·lculos deve-se atribuir o resultado para uma vari·vel C e
-//mostrar seu conte˙do na tela.
-// Autor(a)    : avi Mariani
+// Descri√ß√£o   : a√ßa um algoritmo que leia dois valores inteiros
+//A e B se os valores forem iguais dever√° se somar os dois, caso
+//contr√°rio multiplique A por B. Ao final de qualquer um dos
+//c√°lculos deve-se atribuir o resultado para uma vari√°vel C e
+//mostrar seu conte√∫do na tela.
+// Autor(a)    : Ravi Mariani
 // Data atual  : 3/9/2023
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    primeiroValor, segundoValor, terceiroValor,quartoValor: inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   //Informe os valores necess·rios
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   //Informe os valores necess√°rios
    escreval("Digite o primeiro valor:")
    leia(primeiroValor)
 
@@ -25,17 +25,17 @@ Inicio
 
    limpatela
 
-   //OperaÁıes matemataticas armazenadas no sistema:
+   //Opera√ß√µes matemataticas armazenadas no sistema:
 
    terceiroValor <- primeiroValor * segundoValor
    quartoValor <- primeiroValor + segundoValor
 
-   //estruturas condicionais para realizÁ„o das operaÁıes
+   //estruturas condicionais para realiz√ß√£o das opera√ß√µes
 
    se primeiroValor = segundoValor entao
-      escreval("J· que os valores informados s„o iguais a soma dos valores informados È : " ,quartoValor)
+      escreval("J√° que os valores informados s√£o iguais a soma dos valores informados √© : " ,quartoValor)
    senao
-      escreval("J· que os valores informados s„o diferentes, a multiplicaÁ„o deles È: ",terceiroValor)
+      escreval("J√° que os valores informados s√£o diferentes, a multiplica√ß√£o deles √©: ",terceiroValor)
    fimse
 
 Fimalgoritmo
