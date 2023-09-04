@@ -1,42 +1,42 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Ravi Mariani
 // Data atual  : 3/9/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    tipoCombustivel: caractere
    litrosVendidos,precoGasolina, precoAlcool, valorAPagar: real
 Inicio
-   // Defina os preços por litro
+   // Defina os preÃ§os por litro
    precoGasolina <- 6.59
    precoAlcool <- 3.79
 
-   // Leia o número de litros vendidos
-   escreval("Digite o número de litros vendidos:")
+   // Leia o nÃºmero de litros vendidos
+   escreval("Digite o nÃºmero de litros vendidos:")
    leia(litrosVendidos)
 
-   // Leia o tipo de combustível (A para álcool, G para gasolina)
-   escreval("Digite o tipo de combustível (A para álcool, G para gasolina):")
+   // Leia o tipo de combustÃ­vel (A para Ã¡lcool, G para gasolina)
+   escreval("Digite o tipo de combustÃ­vel (A para Ã¡lcool, G para gasolina):")
    leia(tipoCombustivel)
 
-   // Calcule o valor a ser pago com base no tipo de combustível e nos descontos
+   // Calcule o valor a ser pago com base no tipo de combustÃ­vel e nos descontos
    se tipoCombustivel = "A" entao
       se litrosVendidos <= 25 entao
-         valorAPagar <- litrosVendidos * (precoAlcool - (0.03 * precoAlcool))
+         valorAPagar <- litrosVendidos * (precoAlcool - (0.02 * precoAlcool))
       senao
-         valorAPagar <- litrosVendidos * (precoAlcool - (0.05 * precoAlcool))
+         valorAPagar <- litrosVendidos * (precoAlcool - (0.04 * precoAlcool))
       fimse
    senao se tipoCombustivel = "G" entao
       se litrosVendidos <= 25 entao
-         valorAPagar <- litrosVendidos * (precoGasolina - (0.02 * precoGasolina))
+         valorAPagar <- litrosVendidos * (precoGasolina - (0.03 * precoGasolina))
       senao
-         valorAPagar <- litrosVendidos * (precoGasolina - (0.04 * precoGasolina))
+         valorAPagar <- litrosVendidos * (precoGasolina - (0.05 * precoGasolina))
       fimse
    fimse
 
    // Exiba o valor a ser pago pelo cliente
-   escreval("O valor a ser pago pelo cliente é: R$", valorAPagar)
+   escreval("O valor a ser pago pelo cliente Ã©: R$", valorAPagar)
 
 Fimalgoritmo
